@@ -16,6 +16,11 @@ script = ExtResource("1_snl3y")
 mouse_sensitivity = 0.002
 joystick_sensitiity = 3.0
 camera_distance = 2.0
+walk_speed = 3.0
+run_speed = 5.0
+acceleration = 10.0
+jump_force = 12.0
+gravity = 0.98
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=893002678]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.85, 0)
