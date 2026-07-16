@@ -34,7 +34,13 @@ func _process(delta: float) -> void:
 	input_dir = Input.get_vector("strafe_left","strafe_right", "backward","forward").normalized()
 	
 	joystick_rotation(delta)
-
+	
+	## Toggle the cursor
+	if Input.is_action_just_pressed("ui_cancel"):
+		if Input.mouse_mode == Input.MOUSE_MODE_CAPTURED:
+			Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+		else:
+			Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
 
 func _physics_process(delta: float) -> void:
 	

@@ -4,10 +4,12 @@
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_1wk4y"]
 margin = 0.3
-height = 1.7
+radius = 0.25
+height = 1.0
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_1wk4y"]
-height = 1.7
+radius = 0.25
+height = 1.0
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_yv87b"]
 
