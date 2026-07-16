@@ -17,7 +17,7 @@ height = 1.0
 script = ExtResource("1_snl3y")
 mouse_sensitivity = 0.002
 joystick_sensitiity = 3.0
-camera_distance = 2.0
+camera_distance = -2.0
 walk_speed = 3.0
 run_speed = 5.0
 acceleration = 10.0
@@ -38,5 +38,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 shape = SubResource("SphereShape3D_yv87b")
 
 [node name="Camera3D" type="Camera3D" parent="SpringArm3D" unique_id=781790759]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
 current = true
 near = 0.001
