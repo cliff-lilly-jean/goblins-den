@@ -7,6 +7,6 @@
 [node name="Level-01-Welcome" unique_id=256479871 instance=ExtResource("1_o0e62")]
 
 [node name="Entrance" parent="Rooms" parent_id_path=PackedInt32Array(1699443711) index="0" unique_id=1588707666 instance=ExtResource("2_tnw5n")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 15, 0, 3)
 
-[node name="Foyer" parent="Rooms" parent_id_path=PackedInt32Array(1699443711) index="1" unique_id=1507103540 instance=ExtResource("3_is3ti")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 3.0079231, 0, -14.998188)
+[node name="Foyer" parent="Rooms" parent_id_path=PackedInt32Array(1699443711) index="1" unique_id=126874117 instance=ExtResource("3_is3ti")]
